@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Podaj imie");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
+        printName(name);
     }
 
     private static void printName(String name) {
